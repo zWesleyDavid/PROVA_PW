@@ -20,5 +20,13 @@
 }
 
 #centro {
-    
+
+}
+
+#footerzin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
 }
