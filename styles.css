@@ -14,16 +14,28 @@
     gap: 20px;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'header'
+    'main'
+    'footer';
+}
+
 #cabecalho a {
     text-decoration: none;
     color: #fff;
 }
 
 #centro {
-
+    display: flex;
+    color: #0074d9;
+    justify-content: center;
+    align-items: center;
 }
 
 #footerzin {
+    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
